@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    
+    
+</head>
+<body>
+    <style>
+        .wrapper {
+            display: flex;
+            justify-content: center;
+            align-items:center
+        }
+        .rect{
+            background-color: darkorchid;
+            width: 150px;
+            height: 80px;
+            animation:full 3s infinite;
+            
+        }
+        @keyframes full{
+         0%{
+            background-color: darkkhaki;
+            transform: scale (0.4); rotate(30deg);
+         } 
+         100%{
+            background-color: crimson;
+            transform: scale(2.4); rotate(90deg);
+         }  
+        }
+
+    </style>
+    <div class="wrapper">
+    <div class="rect"></div>
+</div>
+</body>
+</html>
